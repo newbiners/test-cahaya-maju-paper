@@ -126,7 +126,7 @@ const menu = [
     },
     {
         title: "Layanan",
-        link: "",
+        link: "/layanan-kami",
         width: "4rem",
     },
     {
