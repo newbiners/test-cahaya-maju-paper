@@ -1,7 +1,7 @@
 .input {
-  @apply w-full h-16 focus:outline-none px-4 py-1 text-4.25 text-[#B3B3B3] border-1.27;
+  @apply w-full h-16 focus:outline-none px-[33px] py-[22px] text-4.25 text-netral10 border-1.27;
   &.input-outline {
-    @apply bg-transparent border-[#B3B3B3] rounded-bl-[20px] rounded-tr-[20px];
+    @apply bg-transparent border-netral10 rounded-[15px];
   }
 
   &.textarea {

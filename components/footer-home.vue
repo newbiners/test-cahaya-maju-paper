@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="w-full sm:w-85% mt-10"/>
+            <hr class="w-full mt-10"/>
             <p class="block w-full text-4 text-center sm:text-start mt-4">© 2025 Cahaya Maju. All rights reserved.</p>
         </div>
     </div>

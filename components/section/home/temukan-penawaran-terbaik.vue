@@ -1,8 +1,8 @@
 <template>
-     <div class="flex justify-center transform-translate-z-100 bg-primary h-40">
-        <div class="bg-card flex justify-between transform-translate-y-14 overflow-hidden w-[500px] sm:w-[700px] md:w-[800px] lg:w-[1000px] xl:w-[1280px] rounded-tl-[100px] rounded-br-[100px] relative h-87 sm:h-100 lg:h-120 border-15 border-bg">
+     <div class="flex justify-center transform-translate-z-100 mt-[554px] bg-primary h-40">
+        <div class="bg-card container mx-auto flex justify-between transform-translate-y-14 overflow-hidden w-full rounded-tl-[100px] rounded-br-[100px] relative h-87 sm:h-100 lg:h-[536px] ">
           <div class="p-15 lg:p-23 absolute z-10">
-            <h3 class="lg:w-1/2 mb-13 text-white md:text-start text-center">
+            <h3 class="lg:w-45% mb-[50px] uppercase text-white h3-bold md:text-start text-center">
               Temukan penawaran terbaik untuk kebutuhan kertas Anda hari ini juga!
             </h3>
             <div class="bottom flex justify-center md:justify-start items-center text-white">
@@ -17,14 +17,14 @@
           <img
             src="/img/contact-us-img.png"
             alt="img-contact"
-            class="w-60% absolute h-auto right-0 bottom-0 z-0 opacity-10"
+            class="w-60% absolute h-auto right-0 bottom-0 z-0 opacity-40"
           />
         </div>
       </div>
 </template>
 <style lang="scss" scoped>
 .bg-card {
-  background: linear-gradient(90deg,rgb(229, 177, 119) 0%, rgba(230, 222, 216, 1) 80%, rgba(242, 235, 230, 1) 100%);
+  background: rgb(229, 177, 119);
   @apply absolute z-1 -top-80 lg:-top-110;
 }
 .gradient {

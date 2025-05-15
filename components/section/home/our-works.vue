@@ -1,49 +1,39 @@
 <template>
-    <section id="our-works" class="py-0 pt-13 pb-35 our-works" ref="section">
+    <section id="our-works" class="pt-[136px] our-works" ref="section">
         <div class="container mx-auto my-0">
-            <h3 class="text-secondary md:text-start text-center ">Kami Hadir dengan Berbagai</h3>
+            <h3 class="text-secondary md:text-start text-center uppercase">Kami Hadir dengan Berbagai</h3>
             <div class="flex md:flex-row flex-col justify-between items-end">
-                <h1 class="h1-bold mb-0 md:w-40% w-100%  md:text-start text-center lg:w-auto">Produk Kertas Unggulan</h1>
+                <h1 class="h1-bold mb-0 md:w-40% w-100%  md:text-start text-center lg:w-auto uppercase">Produk Kertas Unggulan</h1>
                 <div
                     class=" md:w-60% w-100% lg:w-auto flex md:mt-0 mt-10 flex-row gap-4 justify-center items-center"
                 >
-                    <span
-                        v-for="tag in tags"
-                        :key="tag"
-                        @click="selectTag(tag)"
-                        >
-                        <button-paper-button
-  :title="tag"
-  :customClass="selectedTag === tag ? 'btn-paper bg-primary30 text-white' : 'btn-paper btn-outline text-primary30 border-primary30'" :isIcon="false"
-/>
-                        </span
-                    >
+                <NuxtLink v-for="tag in tags" :key="tag" @click="selectTag(tag)" :class="selectedTag === tag ? 'btn-paper-rounded-top bg-primary30 text-white' : 'btn-paper-rounded-top btn-outline text-primary30 border-primary30'">{{ tag }}</NuxtLink>
                 </div>
             </div>
         </div>
 
-        <div class="section-content mt-0 lg:mt-12">
-            <div class="lg:container lg:mx-auto relative absolute z-1">
+        <div class="mt-[83px]">
+            <div class="container mx-auto relative absolute z-1">
                 <TransitionGroup
                     name="grid"
                     tag="div"
-                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 lg:gap-8 md:gap-col-8 md:gap-row-12 mt-12 z-9"
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 lg:gap-[46.07px] md:gap-col-8 md:gap-row-12 mt-12 z-9"
                 >
                 <div
                     v-for="(item, index) in visibleItems[indexAct]"
                         :key="item.id"
-                        class="flex-1 w-full justify-center items-center md:mt-0 mt-8"
+                        class="flex-1 w-full justify-center items-center"
                 >
                     <card-paper-card :title="item.title" :desc="item.description" :img="item.image"/>
                 </div>
                 </TransitionGroup>
                 <img src="/svg/Subtract-rounded.svg" alt="img-hero" class="h-80  w-80 absolute -right-15 -bottom-25 -z-1 " />
             </div>
-            <div class="container mx-auto mt-[90px] flex items-center justify-center">
+            <!-- <div class="container mx-auto mt-[90px] flex items-center justify-center">
                 <div class="flex gap-3 ">
                     <div v-for="index in countLength" :class="index == indexAct ? 'bg-s h-[10px] w-[10px] rounded-full bg-primary20' : 'bg-secondary10 h-[10px] w-[10px] rounded-full'" @click="idxAct(index)"></div>
                 </div>
-            </div>
+            </div> -->
         </div>
        
         <!-- <card-paper-card/> -->

@@ -1,7 +1,7 @@
 <template>
     <section id="digital-transformation" class="py-20 digital-transformation">
         <div class="container mx-auto">
-            <div class="section-content" ref="section">
+            <div ref="section">
                 <div
                     class="flex flex-1 flex-col lg:flex-row gap-16"
                 >

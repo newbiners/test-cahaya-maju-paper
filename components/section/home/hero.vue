@@ -1,48 +1,43 @@
 <template>
     <section id="hero" class="hero block">
         <div class=" text-white">
-            <div class="flex h-auto bg-hero relative lg:h-70%">
-                <div class="absolute bg-primary w-full h-full opacity-70%"></div>
-                <div class="transform-translate-z-10">
-                    <section class=" w-full lg:text-start text-center lg:w-55% section-content">
-                        <h1 class="h1-bold text-white">Solusi Terpercaya Kebutuhan Percetakan Anda</h1>
-                        <p class="text-secondary10">Cahaya Maju Paper siap memenuhi kebutuhan cetak, kemasan, dan produksi Anda dengan beragam layanan unggulan. Kami berkomitmen menghadirkan pelayanan ramah, dan kualitas terbaik untuk setiap pelanggan.</p>
-                        <div class="flex lg:justify-start justify-center gap4 mt-23 mb-53">
-                            <button-paper-button :title="'Pesan Sekarang  ➔'" :customClass="'btn-paper bg-primary30'" />
-                            <button-paper-button :title="'Lihat Layanan  ➔'" :customClass="'btn-paper btn-outline border-white'" />
+            <div class="flex h-auto bg-primary">
+                <div class="transform-translate-z-10 container mx-auto pt-[276px] pb-[213px] flex justify-between items-center">
+                    <section class=" w-full lg:text-start text-center lg:w-40%">
+                        <h2 class="text-white mb-[30px]">Tingkatkan Efesiensi Dengan Pembelian Mesin Terbaik</h2>
+                        <p class="text-secondary10">Optimalkan proses kerja Anda dengan pilihan mesin berkualitas tinggi yang andal dan tahan lama untuk berbagai kebutuhan industri.</p>
+                        <div class="flex lg:justify-start justify-center gap-[26px] mt-[91px]">
+                            <NuxtLink class="btn-paper bg-primary30 text-white shadow">Pesan Sekarang  ➔</NuxtLink>
+                            <NuxtLink class="btn-paper btn-outline border-white shadow">Lihat Layanan  ➔</NuxtLink>
                         </div>
                     </section>
+                     <img src="/img/banner/img-hero-1.png" alt="logo" class="w-auto" />
                 </div>
-                <!-- <div class="pt-24 w-55% hidden lg:block">
-                    <div class="relative h-100%">
-                        <img src="/svg/mesing-img.svg" alt="img-hero" class="h-auto w-178 absolute right-[-1rem] bottom-15" />
-                    </div>
-                </div> -->
             </div>
             <div class="bg-primary30 relative">
                 <img src="/svg/Subtract-secondary10.svg" alt="logo" class="h-50 sm:h-70 w-auto absolute top-[-10rem]" />
-                <div class="mx-auto max-w-150 lg:max-w-200 transform-translate-z-10 justify-between py-19 items-center grid  grid-cols-2 sm:grid-cols-4 w-full">
+                <div class="container mx-auto text-center transform-translate-z-10 justify-between py-[74px] items-center grid  grid-cols-2 sm:grid-cols-4 w-full">
                    <div class="flex justify-center">
                         <div>
-                            <h3>39 +</h3>
+                            <h2>39 +</h2>
                             <p>Years Experience</p>
                         </div>
                     </div>
                    <div class="flex justify-center">
                         <div>
-                            <h3>200+</h3>
+                            <h2>200+</h2>
                             <p>Completed Projects</p>
                         </div>
                     </div>
                    <div class="flex justify-center">
                         <div>
-                            <h3>100+</h3>
+                            <h2>100+</h2>
                             <p>Professional Team</p>
                         </div>
                     </div>
                     <div class="flex justify-center">
                         <div>
-                            <h3>99 %</h3>
+                            <h2>99 %</h2>
                             <p>Satisfied Clients</p>
                         </div>
                     </div>
@@ -56,10 +51,10 @@
 </script>
 
 <style lang="scss" scoped>
-.bg-hero {
-    background: url('/public/svg/backgroud-hero.svg') no-repeat center center;
-    background-size: cover;
-}
+// .bg-hero {
+//     background: url('/public/svg/backgroud-hero.svg') no-repeat center center;
+//     background-size: cover;
+// }
 
 @screen lt-lg {
     .hero {

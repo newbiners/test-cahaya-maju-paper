@@ -12,18 +12,13 @@ useSeoMeta(
 </script>
 
 <template>
-    <div class="page page-index bg-[#EEF2FF]">
+    <div class="page page-index">
         <section-home-hero />
-        <!-- <section-home-bussines-solution />
-        <section-home-customized-solution />
-        <section-home-why-us /> -->
         <section-home-our-works />
         <section-home-expertise />
         <section-home-services />
         <section-home-our-clients />
-        <div class="temukan-penawaran-home">
-            <section-home-temukan-penawaran-terbaik/>
-        </div>
+        <section-home-temukan-penawaran-terbaik/>
         <section-home-contact-us />
     </div>
 </template>

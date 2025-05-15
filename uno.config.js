@@ -11,7 +11,7 @@ export default defineConfig({
     presetWebFonts({
       provider: "google",
       fonts: {
-        sans: "Blinker",
+        sans: ["DM Sans", "Blinker"],
       },
     }),
     presetTypography(),
@@ -36,6 +36,7 @@ export default defineConfig({
     fontFamily: {
       header: ["Blinker", "sans-serif"],
       body: ["Sora", "sans-serif"],
+      sans: ["DM Sans", "sans-serif"],
     },
     breakpoints: {
       xs: "320px",

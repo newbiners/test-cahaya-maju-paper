@@ -3,14 +3,14 @@
       <div class="img-box">
         <img :src="img" alt="logo" class="h-full w-full" />
       </div>
-      <div class="px-10 pt-5 pb-10 flex flex-col justify-start h-40%">
-          <p class="title-paper text-2xl mb-4">{{ title }}</p>
-          <p class="text-base text-justify">
-              {{ desc }}
+      <div class="px-[48px] min-h-[500px] flex flex-col justify-between gap-0">
+        <div>
+          <p class="title-paper p1-bold paragraph-32-bold">{{ title }}</p>
+          <p class=" text-justify">
+            {{ desc }}
           </p>
-      </div>
-      <div class="px-10 pb-10 pt-6 flex flex-col justify-end">
-        <div class="box-button-paper flex justify-end">
+        </div>
+          <div class="box-button-paper flex justify-end pb-[51px]">
           <button-paper-button
           :link="link"
             :title="'Lihat Selengkapnya ➔'"
@@ -19,21 +19,31 @@
           />
         </div>
       </div>
+      <!-- <div class="px-[48px] pt-[80px] pb-[51px] flex flex-col justify-end">
+        <div class="box-button-paper flex justify-end">
+          <button-paper-button
+          :link="link"
+            :title="'Lihat Selengkapnya ➔'"
+            :isIcon="false"
+            :customClass="'btn-paper btn-outline border-primary30 group-hover:border-white transition-all duration-300'"
+          />
+        </div>
+      </div> -->
     </div>
   </template>
     <style scoped>
     .paper-card-container {
-      @apply w-full h-full shadow-2xl text-primary30 rounded-tr-[100px] rounded-bl-[100px] bg-white flex flex-col justify-between;
+      box-shadow: 0px 5.08px 10.16px 3.81px #1E1E1E0D;
+      @apply w-full h-full text-primary30 rounded-tr-[100px] rounded-bl-[100px] bg-netral20 flex flex-col;
       &:hover {
       @apply bg-primary30 text-white;
     }
     }
     .img-box {
-      @apply overflow-hidden rounded-tr-[100px] h-[250px] ;
+      @apply overflow-hidden rounded-tr-[100px] h-[337px];
     }
     .title-paper {
-      font-size: 32px;
-      @apply text-secondary group-hover:text-white;
+      @apply text-secondary group-hover:text-white mt-[43px] mb-[18px];
     }
     .button-paper {
       @apply transition-all duration-300;

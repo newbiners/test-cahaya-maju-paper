@@ -33,8 +33,7 @@
 }
 
 .btn-paper {
-  border-radius: 0px 20px 0px 20px;
-  @apply flex items-center px-11 py-3;
+  @apply flex items-center px-[42px] py-[17px] rounded-[30px];
   &:hover {
     @apply opacity-80;
   }
@@ -44,6 +43,32 @@
   }
 
   &.btn-outline {
-    @apply border-1.27;
+    @apply border-[2px];
+  }
+
+  &.shadow {
+    box-shadow: 0px 5.08px 10.16px 3.81px #1E1E1E14;
+  }
+}
+.shadow-icon {
+    box-shadow: 0px 5.08px 10.16px 3.81px #1E1E1E14;
+  }
+
+.btn-paper-rounded-top {
+  @apply flex items-center px-[42px] py-[17px] rounded-tr-[30px];
+  &:hover {
+    @apply opacity-80;
+  }
+
+  &.icon {
+    @apply pl-2 w-6 h-6;
+  }
+
+  &.btn-outline {
+    @apply border-[2px];
+  }
+
+  &.shadow {
+    box-shadow: 0px 5.08px 10.16px 3.81px #1E1E1E14;
   }
 }

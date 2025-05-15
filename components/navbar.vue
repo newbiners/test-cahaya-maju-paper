@@ -7,8 +7,8 @@
             <NuxtLink to="/#hero" class="logo">
                 <img src="/svg/logo-cahaya-maju.svg" alt="logo" class="w-auto h-15" />
             </NuxtLink>
-            <div class="mainmenu flex items-center gap-0 rounded-full">
-                <nav class="menu rounded-full">
+            <div class="mainmenu flex items-center gap-0">
+                <nav class="menu">
                     <ul class="flex sm:gap-7 text-white xl:gap-9 2xl:gap-10 list-none justify-center text-4 items-center">
                         <li v-for="(item, index) in menu" :key="item.title"
                             class="item flex items-center justify-center relative" :style="{ width: item.width }"
@@ -26,7 +26,7 @@
                     </ul>
                     <ul>
                         <li>
-                             <button-paper-button :title="'Login'" :customClass="'btn-paper bg-secondary'"/>
+                             <NuxtLink class="btn-paper bg-secondary text-white ml-[65.49px]">Masuk ➔</NuxtLink>
                         </li>    
                     </ul>
                 </nav>
@@ -63,7 +63,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <button-paper-button :title="'Login'" :customClass="'btn-paper bg-secondary'"/>
+                               <NuxtLink class="btn-paper bg-secondary text-white shadow">Masuk ➔</NuxtLink>
                             </li>
                         </ul>
                     </div>
@@ -131,7 +131,7 @@ const menu = [
     },
     {
         title: "Tentang Kami",
-        link: "",
+        link: "/tentang-kami",
         width: "7rem",
     },
     {
@@ -148,7 +148,6 @@ const menu = [
     .menu {
         display: flex;
         justify-content: space-between;
-        gap: 20px;
     }
 }
 

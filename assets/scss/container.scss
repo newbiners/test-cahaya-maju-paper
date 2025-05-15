@@ -1,10 +1,16 @@
-.container {
-  @apply px-4;
-}
+// .container {
+//   @apply px-4;
+// }
 
-@screen lt-lg {
-  .container {
-    @apply px-0;
-    max-width: calc(100% - 80px) !important;
-  }
+// @screen lt-lg {
+//   .container {
+//     @apply px-0;
+//     max-width: calc(100% - 80px) !important;
+//   }
+// }
+
+@media (min-width: 1536px) {
+ .container {
+   max-width: calc(100% - 167px) !important;
+ }
 }

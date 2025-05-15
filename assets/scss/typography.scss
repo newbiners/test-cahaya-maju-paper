@@ -18,6 +18,16 @@ h6 {
   @apply font-header;
 }
 
+.p1-bold {
+  @apply font-sans;
+}
+
+.paragraph-32-bold {
+  @apply fw-700 font-size-[32px] leading-120%; 
+}
+.paragraph-32-reguler {
+  @apply fw-400 font-size-[32px] leading-120%; 
+}
 h1 {
   @apply font-size-15 lg:font-size-17.5 fw-600 my-4 leading-110% tracking-0% text-primary;
 }
@@ -60,6 +70,10 @@ h3 {
 
 .paragraph-17-bold {
   @apply font-size-4.25 fw-600 leading-150% -tracking-2%;
+}
+
+.paragraph17-semibold {
+  @apply font-size-4.25 fw-600 leading-150% -tracking-1%;
 }
 
 html {
