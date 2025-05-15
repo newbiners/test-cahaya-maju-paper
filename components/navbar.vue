@@ -126,17 +126,17 @@ const menu = [
     },
     {
         title: "Layanan",
-        link: "/layanan-kami",
+        link: "",
         width: "4rem",
     },
     {
         title: "Tentang Kami",
-        link: "/contact-us",
+        link: "",
         width: "7rem",
     },
     {
         title: "Kontak",
-        link: "/contact-us",
+        link: "",
         width: "3rem",
     },
 ];
