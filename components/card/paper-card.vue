@@ -23,7 +23,7 @@
   </template>
     <style scoped>
     .paper-card-container {
-      @apply  w-80% md:w-[300px] lg:w-[366px] h-full shadow-2xl text-primary30 rounded-tr-[100px] rounded-bl-[100px] bg-white flex flex-col justify-between;
+      @apply w-full h-full shadow-2xl text-primary30 rounded-tr-[100px] rounded-bl-[100px] bg-white flex flex-col justify-between;
       &:hover {
       @apply bg-primary30 text-white;
     }

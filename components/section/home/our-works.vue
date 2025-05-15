@@ -32,7 +32,7 @@
                 <div
                     v-for="(item, index) in visibleItems[indexAct]"
                         :key="item.id"
-                        class="flex justify-center items-center md:mt-0 mt-8"
+                        class="flex-1 w-full justify-center items-center md:mt-0 mt-8"
                 >
                     <card-paper-card :title="item.title" :desc="item.description" :img="item.image"/>
                 </div>
