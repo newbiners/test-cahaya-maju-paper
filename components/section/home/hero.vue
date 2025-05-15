@@ -21,22 +21,30 @@
             </div>
             <div class="bg-primary30 relative">
                 <img src="/svg/Subtract-secondary10.svg" alt="logo" class="h-50 sm:h-70 w-auto absolute top-[-10rem]" />
-                <div class="mx-auto max-w-150 lg:max-w-200 transform-translate-z-10 justify-between py-19 items-center flex w-full">
-                    <div>
-                        <h3>39 +</h3>
-                        <p>Years Experience</p>
+                <div class="mx-auto max-w-150 lg:max-w-200 transform-translate-z-10 justify-between py-19 items-center grid  grid-cols-2 sm:grid-cols-4 w-full">
+                   <div class="flex justify-center">
+                        <div>
+                            <h3>39 +</h3>
+                            <p>Years Experience</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>200+</h3>
-                        <p>Completed Projects</p>
+                   <div class="flex justify-center">
+                        <div>
+                            <h3>200+</h3>
+                            <p>Completed Projects</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>100+</h3>
-                        <p>Professional Team</p>
+                   <div class="flex justify-center">
+                        <div>
+                            <h3>100+</h3>
+                            <p>Professional Team</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3>99 %</h3>
-                        <p>Satisfied Clients</p>
+                    <div class="flex justify-center">
+                        <div>
+                            <h3>99 %</h3>
+                            <p>Satisfied Clients</p>
+                        </div>
                     </div>
                 </div>
             </div>

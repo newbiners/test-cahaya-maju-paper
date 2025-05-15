@@ -27,7 +27,7 @@
                 <TransitionGroup
                     name="grid"
                     tag="div"
-                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-col-8 md:gap-row-12 mt-12 z-9"
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 lg:gap-8 md:gap-col-8 md:gap-row-12 mt-12 z-9"
                 >
                 <div
                     v-for="(item, index) in visibleItems[indexAct]"
