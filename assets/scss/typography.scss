@@ -29,7 +29,7 @@ h6 {
   @apply fw-400 font-size-[32px] leading-120%; 
 }
 h1 {
-  @apply font-size-15 lg:font-size-17.5 fw-600 my-4 leading-110% tracking-0% text-primary;
+  @apply  font-size-15 lg:font-size-17.5 fw-600 my-4 leading-110% tracking-0% text-primary;
 }
 
 .h1-bold {
@@ -37,11 +37,11 @@ h1 {
 }
 
 h2 {
-  @apply font-size-15 fw-600 my-4 tracking-0% leading-120%;
+  @apply font-size-12 md:font-size-15 fw-600 my-4 tracking-0% leading-120%;
 }
 
 .h2-bold {
-  @apply font-size-15 fw-700 my-4 tracking-0% leading-120%;
+  @apply font-size-12 md:font-size-15 fw-700 my-4 tracking-0% leading-120%;
 }
 
 h3 {

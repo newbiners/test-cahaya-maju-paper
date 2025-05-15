@@ -1,6 +1,6 @@
 <template>
     <section id="services" class="mt-[136px]">
-        <div class="container bg-primary30 mx-auto text-white service-container px-[110px] pt-[91px] pb-[167px] rounded-tr-[100px] rounded-bl-[100px]">
+        <div class="container bg-primary30 mx-auto text-white service-container px-10 sm:px-[110px] pt-[91px] pb-[167px] rounded-tr-[100px] rounded-bl-[100px]">
             <div>
                 <div ref="title" class="section-title">
                     <h2 class="md:text-start text-center uppercase h2-bold">pelanggan kami</h2>
@@ -15,11 +15,11 @@
                         :key="index"
                         class="item"
                         >
-                        <div class="bg-white rounded-full h-[108px] w-[108px] mr-[34px] shadow-icon flex items-center justify-center">
+                        <div class="bg-white rounded-full h-[108px] w-[108px] lg:mr-[34px] shadow-icon flex items-center justify-center">
                             <img :src="item.icon" class="w-[60px] h-[60px]"/>
                         </div>
                         <div class="w-70%">
-                            <p class="pi-bold paragraph-32-reguler mb-[9px]">
+                            <p class="pi-bold paragraph-32-reguler lg:text-start text-center mb-[9px]">
                                 {{item.title}}
                             </p>
                             <p class="md:text-start text-center">{{ item.description }}</p>

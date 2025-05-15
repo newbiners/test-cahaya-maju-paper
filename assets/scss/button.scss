@@ -33,7 +33,7 @@
 }
 
 .btn-paper {
-  @apply flex items-center px-[42px] py-[17px] rounded-[30px];
+  @apply flex items-center px-[20px] md:px-[42px] py-[17px] rounded-[30px];
   &:hover {
     @apply opacity-80;
   }
@@ -55,7 +55,7 @@
   }
 
 .btn-paper-rounded-top {
-  @apply flex items-center px-[42px] py-[17px] rounded-tr-[30px];
+  @apply flex items-center px-[20px] md:px-[42px] py-[17px] rounded-tr-[30px];
   &:hover {
     @apply opacity-80;
   }
