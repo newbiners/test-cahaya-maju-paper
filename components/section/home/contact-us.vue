@@ -22,8 +22,8 @@
           />
         </div>
       </div> -->
-      <div class=" px-15 lg:px-29 mx-auto bg-primary text-white pt-40 lg:pt-40">
-        <div class=" flex lg:flex-row flex-col gap-20 sm:gap-30 ">
+      <div class="bg-primary text-white pt-40 lg:pt-40">
+        <div class=" flex lg:flex-row flex-col gap-20 sm:gap-30 container mx-auto">
           <div class="lg:w-70%">
             <h1 class="text-white uppercase">hubungi kami</h1>
             <p class="mb-9">Kami siap membantu Anda! Jika Anda memiliki pertanyaan seputar produk, pemesanan, atau ingin berdiskusi lebih lanjut mengenai kebutuhan kertas untuk bisnis Anda, jangan ragu untuk menghubungi kami.</p>
@@ -52,7 +52,7 @@
             </div>
             <card-form-card/>
           </div>
-          <div class="mt-[117px] h-113">
+          <div class="mt-[117px] h-113 container mx-auto">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.9382926600913!2d112.68923743864832!3d-7.2548842481879365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ff001ffa97ab%3A0x1cf840e7f9ec035e!2sCV.%20CAHAYA%20MAJU!5e0!3m2!1sid!2sid!4v1747320576720!5m2!1sid!2sid" width="100%" height="100%" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <!-- <img src="/img/map.png" class="w-full mt-28" /> -->

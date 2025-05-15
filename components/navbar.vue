@@ -53,17 +53,17 @@
                         </span>
                         <ul>
                             <li v-for="(item, index) in menu" :key="item.title">
-                                <NuxtLink @click="handleMenuClick(index, item)" :to="item.link" class="text-white">{{
+                                <NuxtLink @click="handleMenuClick(index, item)" :to="item.link" class="text-white" external>{{
                                     item.title }}</NuxtLink>
-                                <ul v-if="item.submenu && isSubmenuOpen(index)" class="pl-4 mt-4 submenu-item">
+                                <ul v-if="item.submenu && isSubmenuOpen(index)" class="pl-4 mt-4 submenu-item shadow-icon">
                                     <li v-for="subitem in item.submenu" :key="subitem.title"
                                         class="text-nowrap fw-normal">
-                                        <NuxtLink :to="subitem.link" class="text-white">{{ subitem.title }}</NuxtLink>
+                                        <NuxtLink :to="subitem.link" class="text-white" external>{{ subitem.title }}</NuxtLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                               <NuxtLink class="btn-paper bg-secondary text-white shadow">Masuk ➔</NuxtLink>
+                               <NuxtLink class="btn-paper bg-secondary text-white shadow" external>Masuk ➔</NuxtLink>
                             </li>
                         </ul>
                     </div>

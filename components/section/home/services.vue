@@ -95,6 +95,18 @@ onMounted(() => {
   }
 
 }
+@screen lt-lg {
+  .box{
+      @apply flex flex-col;
+    //   .item { 
+    //     @apply flex-col;
+    //       .title-item {
+    //           padding-bottom: 3px;
+    //            @apply text-center;
+    //         }
+    //     }
+  }
+}
 @screen lt-md {
   .box{
       @apply flex flex-col;

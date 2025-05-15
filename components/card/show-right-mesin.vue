@@ -1,5 +1,5 @@
 <template>
-    <div class="section bg-[#EEF2FF] flex items-center rounded-tr-[100px] rounded-bl-[100px] mb-40 p-10">
+    <div class="section bg-netral20 flex items-center rounded-tr-[100px] rounded-bl-[100px] mb-40 p-10">
         <div class="">
             <div class="flex lg:flex-row flex-col justify-between items-center lg:items-start gap-10 lg:gap-20">
                 <div class="flex flex-col w-65% items-start gap-12 mt-12">

@@ -4,11 +4,11 @@
             <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-20">
                 <img src="/img/layanan/img-slitting.png" class="w-45% h-auto" />
                 <div class="flex flex-col items-start gap-8 mt-4">
-                    <div class="h3-bold text-primary20 uppercase lg:text-start text-center flex flex-col items-start gap-2">
+                    <div class="h3-bold text-primary20 uppercase w-full lg:text-start text-center flex flex-col items-center lg:items-start gap-2">
                         <span>Slitting</span>
                         <p class="capitalize bg-secondary10 rounded-bl-[20px] rounded-tr-[20px] text-white py-2 px-8">Pemotong Gulungan</p>
                     </div>
-                    <div class="">
+                    <div class="lg:text-start text-center">
                         <p class="text-netral">
                             Mesin Slitting adalah mesin yang digunakan untuk memotong gulungan kertas besar menjadi gulungan
                             lebih pendek tanpa harus memotong semuanya atau dengan hasil terputus-putus.

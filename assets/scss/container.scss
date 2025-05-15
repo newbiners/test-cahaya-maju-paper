@@ -3,14 +3,25 @@
 // }
 
 // @screen lt-lg {
-//   .container {
-//     @apply px-0;
-//     max-width: calc(100% - 80px) !important;
-//   }
-// }
+  .container {
+    @apply px-10;    
+  }
+ @media (min-width: 320px){
+  .container{
+     max-width: 90vw !important;
+     @apply px-5;
+  }
+ }
 
 @media (min-width: 1536px) {
  .container {
    max-width: calc(100% - 167px) !important;
+ }
+}
+
+@media (min-width: 1920px) {
+ .container {
+   max-width: 1980px !important;
+   @apply px-4;
  }
 }

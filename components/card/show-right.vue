@@ -1,9 +1,9 @@
 <template>
-    <div class="section bg-[#EEF2FF] flex items-center rounded-tr-[100px] rounded-bl-[100px] mb-40 p-10">
+    <div class="section bg-netral20 flex items-center rounded-tr-[100px] rounded-bl-[100px] mb-40 p-10">
         <div class="">
             <div class="flex lg:flex-row flex-col justify-between items-center lg:items-start gap-10 lg:gap-20">
                 <div class="flex flex-col items-start gap-12 mt-12">
-                    <div class="h3-bold text-primary20 uppercase w-full lg:text-start text-center flex lg:justify-start justify-center items-center gap-5"><span>{{ title }}</span><p class="capitalize bg-secondary10 rounded-bl-[20px] rounded-tr-[20px] text-white py-2 px-4" v-if="subTitle">{{ subTitle }}</p></div>
+                    <div class="h3-bold text-primary20 uppercase w-full lg:text-start text-center flex md:flex-row flex-col lg:justify-start justify-center items-center gap-5"><span>{{ title }}</span><p class="capitalize bg-secondary10 rounded-bl-[20px] rounded-tr-[20px] text-white py-2 px-4" v-if="subTitle">{{ subTitle }}</p></div>
                     <div>
                         <p class="text-netral lg:text-start text-center">
                             {{ desc }}

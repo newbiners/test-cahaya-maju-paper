@@ -5,8 +5,6 @@
         <section-layanan-kami-ekstruksi/>
         <section-layanan-kami-slitting/>
         <section-layanan-kami-guillotine/>
-        <div class="temukan-penawaran-product pt-120">
-            <section-home-temukan-penawaran-terbaik/>
-        </div>
+        <section-home-temukan-penawaran-terbaik/>
     </div>
 </template>

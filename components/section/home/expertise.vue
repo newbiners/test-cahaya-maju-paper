@@ -15,7 +15,7 @@
                         />
                     <!-- </div>          -->
             </div>
-                    <div class="flex flex-col w-45% lg:text-start text-center">
+                    <div class="flex flex-col lg:w-45% lg:text-start text-center">
                         <div class=" transform-translate-z-100">
                             <h3 class="text-secondary uppercase">39 Tahun Perjalanan Kami</h3>
                             <h2 class="text-center lg:text-start text-primary h2-bold uppercase mb-[42px]">Membuktikan Komitmen dalam Memberikan Layanan Terbaik</h2>

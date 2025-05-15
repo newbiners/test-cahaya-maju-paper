@@ -17,12 +17,12 @@
                 <TransitionGroup
                     name="grid"
                     tag="div"
-                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 lg:gap-[46.07px] md:gap-col-8 md:gap-row-12 mt-12 z-9"
+                    class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-[46.07px] md:gap-col-8 md:gap-row-12 mt-12 z-9"
                 >
                 <div
                     v-for="(item, index) in visibleItems[indexAct]"
                         :key="item.id"
-                        class="flex-1 w-full justify-center items-center"
+                        class="flex-1 w-full justify-center items-center lg:pb-0 pb-20"
                 >
                     <card-paper-card :title="item.title" :desc="item.description" :img="item.image"/>
                 </div>

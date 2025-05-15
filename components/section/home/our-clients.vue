@@ -2,7 +2,7 @@
     <section id="our-clients" class="our-clients mt-[162px] relative">
         <img src="/svg/Subtract-secondary10.svg" alt="logo" class="h-50 md:h-70 w-auto absolute -top-[6rem]" />
         <div class="container mx-auto">
-            <div class=" ml-[150px]">
+            <div class="">
                 <div class="md:w-50% transform-translate-z-10">
                     <h3 class="mb-7 uppercase h3-bold">Kami Berusaha Memberikan Keunggulan Terbaik untuk Anda.</h3>
                 </div>
