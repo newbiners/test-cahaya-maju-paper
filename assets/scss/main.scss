@@ -1,0 +1,141 @@
+@use "@unocss/reset/tailwind.css";
+@use "./typography.scss";
+@use "./section.scss";
+@use "./button.scss";
+@use "./card.scss";
+@use "./form.scss";
+@use "./container.scss";
+@use "./media.scss";
+@use "./input.scss";
+html {
+  max-width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  // background-color: #f0f0f0;
+  background-color: #ffffff;
+  margin: 0px;
+  line-height: 1;
+  scroll-behavior: smooth;
+  @apply text-black;
+
+  max-width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+svg {
+  fill: currentColor;
+  path {
+    fill: currentColor;
+    stroke: currentColor;
+  }
+}
+
+a {
+  @apply cursor-pointer;
+  &:hover {
+    @apply no-underline;
+  }
+
+  &.btn:hover {
+    @apply no-underline;
+  }
+}
+
+// .btn {
+//     @apply border-secondary40 border-8 cursor-pointer;
+//     &.btn-outline {
+//         @apply bg-transparent px-6 py-2 rounded-2.5 cursor-pointer;
+//     }
+// }
+
+.header-semibold {
+  font-size: 3.875rem;
+  font-weight: 600;
+  // font-family: 'Albert Sans';
+  line-height: 110%;
+  letter-spacing: -3%;
+}
+
+.header-reguler {
+  font-size: 3.875rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 110%;
+  letter-spacing: -3%;
+}
+
+.paragraf-46-reguler {
+  font-size: 2.875rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-32-reguler {
+  font-size: 2rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-32-semibold {
+  font-size: 2rem;
+  font-weight: 600;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-25-semibold {
+  font-size: 1.625rem;
+  font-weight: 600;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-25-reguler {
+  font-size: 1.625rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-20-reguler {
+  font-size: 1.25rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 121%;
+  letter-spacing: -4%;
+}
+
+.paragraf-20-semibold {
+  font-size: 1.25rem;
+  font-weight: 600;
+  // font-family: 'Albert Sans';
+  line-height: 121%;
+  letter-spacing: -4%;
+}
+
+.paragraf-16-semibold {
+  font-size: 1rem;
+  font-weight: 600;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.paragraf-16-reguler {
+  font-size: 1rem;
+  font-weight: 400;
+  // font-family: 'Albert Sans';
+  line-height: 120%;
+  letter-spacing: -3%;
+}

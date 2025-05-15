@@ -1,0 +1,26 @@
+section {
+  // @apply py-20 lg:py-28;
+  .section-title {
+    p {
+      // @apply font-size-5 mb-8 line-height-125%;
+      @apply mb-8;
+    }
+    label {
+      @apply block font-size-5 mb-6 fw-semibold text-primary20;
+    }
+    h2 {
+      @apply mb-6;
+    }
+
+    .description {
+      p {
+        @apply mb-4;
+      }
+    }
+    @apply block mb-20;
+  }
+
+  .section-content {
+    @apply pt-30 sm:pl-24 sm:pr-24 pl-15 pr-15;
+  }
+}

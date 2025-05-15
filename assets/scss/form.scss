@@ -1,0 +1,15 @@
+.form-group {
+    @apply flex flex-col gap-5;
+}
+.form-group input,
+.form-group textarea {
+    @apply border-secondary20 border-0 rounded-2.5 p-4 bg-secondary50  text-black;
+}
+
+input::placeholder {
+    @apply text-secondary40;
+}
+
+textarea::placeholder {
+    @apply text-secondary40;
+}

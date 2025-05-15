@@ -1,0 +1,49 @@
+.btn {
+  @apply border-white border-1.27 text-4.25 cursor-pointer rounded-3 px-7.5 py-4 text-nowrap text-center text-black fw-600;
+  font-family: "Sora", sans-serif;
+  transition: all 0.3s ease;
+  &:hover {
+    @apply opacity-80;
+  }
+
+  &.btn-primary {
+    @apply bg-primary border-primary text-white;
+  }
+
+  &.btn-secondary {
+    @apply bg-secondary40 border-secondary40 text-white;
+  }
+
+  &.btn-white {
+    @apply bg-white border-white text-primary;
+    box-shadow: 0px 5.08px 10.16px 3.81px rgba(30, 30, 30, 0.08);
+  }
+
+  &.btn-outline {
+    @apply bg-transparent border-primary text-primary;
+  }
+
+  &.btn-outline-inverted {
+    @apply bg-transparent border-white text-white;
+  }
+
+  &.btn-black {
+    @apply bg-black border-black text-white;
+  }
+}
+
+.btn-paper {
+  border-radius: 0px 20px 0px 20px;
+  @apply flex items-center px-11 py-3;
+  &:hover {
+    @apply opacity-80;
+  }
+
+  &.icon {
+    @apply pl-2 w-6 h-6;
+  }
+
+  &.btn-outline {
+    @apply border-1.27;
+  }
+}

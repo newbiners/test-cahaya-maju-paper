@@ -1,0 +1,40 @@
+// .card {
+//   @apply bg-white rounded-4 p-8 lg:p-12;
+// }
+
+.paper-card-container {
+  border-radius: 0px 20px 0px 20px;
+  @apply w-100 shadow-2xl;
+  &.img-box {
+    border-radius: 1000px 20px 0px 20px;
+    overflow: hidden;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+  }
+  &.title-paper {
+    font-size: 20px;
+  }
+}
+
+.temukan-penawaran-product {
+  .border-bg {
+    @apply border-white;
+  }
+}
+
+.temukan-penawaran-home {
+  .border-bg {
+    @apply border-[#EEF2FF];
+  }
+}
+
+// table {
+.table-header {
+  @apply w-full border-collapse text-center;
+
+  .table-body {
+    @apply border-1 border-netral10 p-2;
+  }
+}
+// }

@@ -1,0 +1,10 @@
+.container {
+  @apply px-4;
+}
+
+@screen lt-lg {
+  .container {
+    @apply px-0;
+    max-width: calc(100% - 80px) !important;
+  }
+}
