@@ -1,6 +1,6 @@
 <template>
     <section id="services" class="">
-        <div class="container mx-auto text-white service-container py-15 md:py-20 px-15 md:px-20">
+        <div class="container mx-auto text-white service-container py-15 md:py-20 px-15 md:px-20 2xl:px-10">
             <div>
                 <div ref="title" class="section-title">
                     <h2 class="text-secondary md:text-start text-center">pelanggan kami</h2>
@@ -22,7 +22,7 @@
                             <p class="title-item">
                                 {{item.title}}
                             </p>
-                            <p>{{ item.description }}</p>
+                            <p class="md:text-start text-center">{{ item.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -98,9 +98,13 @@ onMounted(() => {
 @screen lt-md {
   .box{
       @apply flex flex-col;
-      .title-item {
-        padding-bottom: 3px;
-      }
+      .item { 
+        @apply flex-col;
+          .title-item {
+              padding-bottom: 3px;
+               @apply text-center;
+            }
+        }
   }
 }
 

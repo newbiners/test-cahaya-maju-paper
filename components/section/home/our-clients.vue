@@ -3,17 +3,17 @@
         <img src="/svg/Subtract-secondary10.svg" alt="logo" class="h-50 md:h-70 w-auto absolute top-[1rem]" />
         <div class="container mx-auto">
             <div class="section-content">
-                <div class="md:w-50%">
+                <div class="md:w-50% transform-translate-z-10">
                     <h3 class="mb-7">Kami Berusaha Memberikan Keunggulan Terbaik untuk Anda.</h3>
                 </div>
                 <div class="flex justify-between">
-                    <p class="text-[#B3B3B3] w-50%">Kami memahami kepercayaan Anda kepada Kami. Itulah mengapa kami menghadirkan keunggulan di setiap layanan dan produk yang kami tawarkan.</p>
+                    <p class="text-[#B3B3B3] w-50% transform-translate-z-10">Kami memahami kepercayaan Anda kepada Kami. Itulah mengapa kami menghadirkan keunggulan di setiap layanan dan produk yang kami tawarkan.</p>
                     <div class="bottom flex justify-center md:justify-start items-center text-white">
                         <button-paper-button :title="'Lihat Semua  ➔'" :customClass="'btn-paper bg-primary30'" :isIcon="false"/>
                     </div>
                 </div>
                 <div class="testioni-box">
-                    <div v-for="(item, index) in items" :key="index" class="flex-1 lg:mt-0 mt-7 justify-items-center">
+                    <div v-for="(item, index) in items" :key="index" class="flex-1 xl:mt-0 mt-7 justify-items-center">
                         <card-testimoni-card :img="item.image" :name="item.name" :company="item.company" :testimoni="item.testimoni"/>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const items = [
   margin-top: 75px;
 }
 
-@screen lt-lg {
+@screen lt-xl {
 .testioni-box {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);  

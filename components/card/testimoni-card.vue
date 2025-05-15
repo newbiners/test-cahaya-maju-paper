@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full sm:w-[250px]">
+    <div class="w-full md:w-[250px]">
         <div class="relative h-20 w-full">
   <div class="h-[126px] w-[126px] absolute left-1/2 transform -translate-x-1/2">
     <img :src="img" alt="logo" class="h-full w-full"/>
