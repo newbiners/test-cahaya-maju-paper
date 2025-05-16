@@ -17,26 +17,26 @@
             </div>
                     <div class="flex flex-col lg:w-45% lg:text-start text-center">
                         <div class=" transform-translate-z-100">
-                            <h3 class="text-secondary uppercase">39 Tahun Perjalanan Kami</h3>
+                            <h3 class="text-secondary uppercase h3-semibold">39 Tahun Perjalanan Kami</h3>
                             <h2 class="text-center lg:text-start text-primary h2-bold uppercase mb-[42px]">Membuktikan Komitmen dalam Memberikan Layanan Terbaik</h2>
                         </div>
                         <div class="contents flex flex-col">
-                            <p class="mb-[38px]">
+                            <p class="mb-[38px] paragraph-17-reguler">
                                 CV. Cahaya Maju adalah perusahaan penyedia produk kertas terpercaya yang telah berdiri sejak tahun 1986. Selama lebih dari 39 tahun, kami berkomitmen untuk memberikan produk kertas berkualitas tinggi dengan pelayanan terbaik kepada pelanggan di berbagai sektor industri.
                             </p>
                             <div class="flex items-center lg:justify-start justify-center lg:items-start gap-4 mb-7">
-                                <img src="/svg/mark-check-black.svg" class="w-6 h-6"/>
-                                <p>
+                                <img src="/svg/mark-check-orange.svg" class="w-6 h-6"/>
+                                <p class="paragraph-17-reguler">
                                     Kami menyediakan berbagai jenis kertas pilihan kebutuhan industri
                                 </p>
                             </div>
                             <div class="flex items-center lg:justify-start justify-center lg:items-start gap-4 mb-7">
-                                <img src="/svg/mark-check-black.svg" class="w-6 h-6"/>
-                                <p>Pelayanan kami cepat, ramah, dan profesional untuk kepuasan pelanggan</p>
+                                <img src="/svg/mark-check-orange.svg" class="w-6 h-6"/>
+                                <p class="paragraph-17-reguler">Pelayanan kami cepat, ramah, dan profesional untuk kepuasan pelanggan</p>
                             </div>
                             <div class="flex items-center lg:justify-start justify-center lg:items-start gap-4">
-                                <img src="/svg/mark-check-black.svg" class="w-6 h-6"/>
-                                <p>Harga yang kami tawarkan kompetitif dengan kualitas produk yang terjaga</p>
+                                <img src="/svg/mark-check-orange.svg" class="w-6 h-6"/>
+                                <p class="paragraph-17-reguler">Harga yang kami tawarkan kompetitif dengan kualitas produk yang terjaga</p>
                             </div>
                         </div>
                         <div class="bottom flex justify-center lg:justify-start items-center text-white mt-[67px]">

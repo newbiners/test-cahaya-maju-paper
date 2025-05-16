@@ -4,7 +4,7 @@
             <div>
                 <div ref="title" class="section-title">
                     <h2 class="md:text-start text-center uppercase h2-bold">pelanggan kami</h2>
-                    <p class="w-full md:text-start text-center">
+                    <p class="w-full md:text-start text-center paragraph-17-reguler">
                         Selama lebih dari 39 tahun, kami telah dipercaya oleh berbagai sektor industri dan pelanggan dari berbagai latar belakang. Komitmen kami terhadap kualitas dan pelayanan menjadikan kami mitra utama bagi banyak bisnis. 
                     </p>
                 </div>
@@ -15,14 +15,14 @@
                         :key="index"
                         class="item"
                         >
-                        <div class="bg-white rounded-full h-[108px] w-[108px] lg:mr-[34px] shadow-icon flex items-center justify-center">
+                        <div class="bg-white rounded-full h-[108px] w-[108px] md:mr-[34px] shadow-icon flex items-center justify-center">
                             <img :src="item.icon" class="w-[60px] h-[60px]"/>
                         </div>
                         <div class="w-70%">
-                            <p class="pi-bold paragraph-32-reguler lg:text-start text-center mb-[9px]">
+                            <p class="pi-bold paragraph-32-reguler md:text-start text-center mb-[13px] uppercase">
                                 {{item.title}}
                             </p>
-                            <p class="md:text-start text-center">{{ item.description }}</p>
+                            <p class="md:text-start text-center paragraph-17-reguler">{{ item.description }}</p>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,10 @@
 <template>
-     <div class="flex justify-center transform-translate-z-100  mt-[260px] md:mt-[350px] lg:mt-[500px] 2xl:mt-[554px] bg-primary h-40">
+     <div class="flex justify-center transform-translate-z-100  mt-[360px] md:mt-[450px] lg:mt-[500px] 2xl:mt-[554px] bg-primary h-40">
       <div class="container mx-auto">
         <div class="relative">
         <div class="bg-card  flex justify-between transform-translate-y-14 overflow-hidden w-full rounded-tl-[100px] rounded-br-[100px] relative h-87 sm:h-100 lg:h-[536px] ">
           <div class="p-7 md:p-15 lg:p-23 absolute z-10 h-full flex items-center lg:items-start  justify-center flex-col">
-            <h3 class="lg:w-45% mb-[20px] md:mb-[50px] uppercase text-white h3-bold md:text-start text-center">
+            <h3 class="w-full xl:w-45% mb-[20px] md:mb-[50px] uppercase text-white h3-bold md:text-start text-center">
               Temukan penawaran terbaik untuk kebutuhan kertas Anda hari ini juga!
             </h3>
             <div class="bottom flex justify-center md:justify-start items-center text-white">

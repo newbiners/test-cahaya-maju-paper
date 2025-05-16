@@ -25,28 +25,28 @@
       <div class="bg-primary text-white pt-40 lg:pt-40">
         <div class=" flex lg:flex-row flex-col gap-20 sm:gap-30 container mx-auto">
           <div class="lg:w-70%">
-            <h1 class="text-white uppercase">hubungi kami</h1>
-            <p class="mb-9">Kami siap membantu Anda! Jika Anda memiliki pertanyaan seputar produk, pemesanan, atau ingin berdiskusi lebih lanjut mengenai kebutuhan kertas untuk bisnis Anda, jangan ragu untuk menghubungi kami.</p>
+            <h1 class="text-white uppercase h1-semibold">hubungi kami</h1>
+            <p class="mb-9 p4-paragraph-17-semibold">Kami siap membantu Anda! Jika Anda memiliki pertanyaan seputar produk, pemesanan, atau ingin berdiskusi lebih lanjut mengenai kebutuhan kertas untuk bisnis Anda, jangan ragu untuk menghubungi kami.</p>
             <div class="flex items-center gap-6 mb-9">
               <img src="/svg/location.svg" class="w-[32px]" />
               <div>
-                <p class="paragraph-24-semibold mb-[9px]">Alamat Kantor</p>
-                <p>Jl. Pergudangan Margomulyo Permai Blok Sentral No. 1, 
+                <p class="p2-paragraph-24-semibold mb-[8px] uppercase">Alamat Kantor</p>
+                <p class="paragraph-17-reguler">Jl. Pergudangan Margomulyo Permai Blok Sentral No. 1, 
                   Tandes Kidul, Tandes - Surabaya</p>
                 </div>
               </div>
               <div class="flex items-center gap-6 mb-9">
                 <img src="/svg/white-clock.svg" class="w-[32px]" />
                 <div>
-                  <p class="paragraph-24-semibold mb-[9px]">Jam Operasional</p>
-                  <p>Senin - Jumat | 08.00 s/d 16.00<br/>Sabtu | 08.00 s/d 14.00</p>
+                  <p class="p2-paragraph-24-semibold mb-[8px] uppercase">Jam Operasional</p>
+                  <p class="paragraph-17-reguler">Senin - Jumat | 08.00 s/d 16.00<br/>Sabtu | 08.00 s/d 14.00</p>
                 </div>
               </div>
               <div class="flex items-center gap-6 mb-9">
                 <img src="/svg/phone.svg" class="w-[32px]" />
                 <div>
-                  <p class="paragraph-24-semibold mb-[9px]">Telepon</p>
-                  <p>031-35925928</p>
+                  <p class="p2-paragraph-24-semibold mb-[8px] uppercase">Telepon</p>
+                  <p class="paragraph-17-reguler">031-35925928</p>
                 </div>
               </div>
             </div>

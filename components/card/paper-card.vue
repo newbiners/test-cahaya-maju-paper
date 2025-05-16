@@ -5,8 +5,8 @@
       </div>
       <div class="px-[48px] xl:min-h-[700px] 2xl:min-h-[500px] flex flex-col justify-between gap-0">
         <div>
-          <p class="title-paper p1-bold paragraph-32-bold">{{ title }}</p>
-          <p class=" text-justify">
+          <p class="title-paper p1-bold paragraph-32-bold uppercase">{{ title }}</p>
+          <p class=" text-justify paragraph-17-reguler">
             {{ desc }}
           </p>
         </div>

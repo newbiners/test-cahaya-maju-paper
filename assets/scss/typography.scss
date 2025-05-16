@@ -23,10 +23,10 @@ h6 {
 }
 
 .paragraph-32-bold {
-  @apply fw-700 font-size-[32px] leading-120%; 
+  @apply fw-700 font-size-[32px] leading-120% tracking-0%; 
 }
 .paragraph-32-reguler {
-  @apply fw-400 font-size-[32px] leading-120%; 
+  @apply fw-400 font-size-[32px] leading-120% tracking-0%; 
 }
 h1 {
   @apply  font-size-15 lg:font-size-17.5 fw-600 my-4 leading-110% tracking-0% text-primary;
@@ -36,12 +36,20 @@ h1 {
   @apply fw-700;
 }
 
+.h1-semibold {
+  @apply fw-400 leading-110%;
+}
+
 h2 {
   @apply font-size-12 md:font-size-15 fw-600 my-4 tracking-0% leading-120%;
 }
 
 .h2-bold {
-  @apply font-size-12 md:font-size-15 fw-700 my-4 tracking-0% leading-120%;
+  @apply font-size-12 md:font-size-15 fw-600 my-4 tracking-0% leading-120%;
+}
+
+.h2-semibold {
+  @apply font-size-12 md:font-size-16.65 fw-400 my-4 tracking-0% leading-120%;
 }
 
 h3 {
@@ -49,9 +57,11 @@ h3 {
 }
 
 .h3-bold {
-  @apply font-size-9 md:font-size-10.2 lg:font-size-11.25 fw-700 tracking-0% leading-120%;
+  @apply font-size-9 md:font-size-10.2 lg:font-size-11.25 fw-600 tracking-0% leading-120%;
 }
-
+.h3-semibold {
+  @apply font-size-9 md:font-size-10.2 lg:font-size-11.25 fw-400 tracking-0% leading-120%;
+}
 .paragraph-24-semibold {
   @apply font-size-6 fw-400 leading-150% -tracking-2%;
 }
@@ -59,10 +69,14 @@ h3 {
 .paragraph-24-bold {
   @apply font-size-6 fw-700 leading-150% -tracking-2%;
 }
+.p2-paragraph-24-semibold {
+  @apply font-size-6 fw-700 leading-160% -tracking-1%;
+}
 
 .paragraph-20-semibold {
   @apply font-size-5 fw-400 leading-150% -tracking-2%;
 }
+
 
 .paragraph-20-bold {
   @apply font-size-5 fw-700 leading-150% -tracking-2%;
@@ -72,8 +86,19 @@ h3 {
   @apply font-size-4.25 fw-600 leading-150% -tracking-2%;
 }
 
-.paragraph17-semibold {
+.paragraph-17-semibold {
   @apply font-size-4.25 fw-600 leading-150% -tracking-1%;
+}
+.p4-paragraph-17-semibold {
+font-weight: 400;
+font-size: 17px;
+line-height: 180%;
+letter-spacing: -1%;
+
+}
+
+.paragraph-17-reguler {
+  @apply font-size-4.25 fw-400 leading-180% -tracking-1%;
 }
 
 html {

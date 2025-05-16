@@ -1,13 +1,13 @@
 <template>
     <section id="our-works" class="pt-[136px] our-works" ref="section">
         <div class="container mx-auto my-0">
-            <h3 class="text-secondary md:text-start text-center uppercase">Kami Hadir dengan Berbagai</h3>
+            <h3 class="text-secondary md:text-start text-center uppercase h3-semibold">Kami Hadir dengan Berbagai</h3>
             <div class="flex md:flex-row flex-col justify-between items-end">
-                <h1 class="h1-bold mb-0 md:w-40% w-100%  md:text-start text-center lg:w-auto uppercase">Produk Kertas Unggulan</h1>
+                <h2 class="h2-bold mb-0 md:w-40% w-100%  md:text-start text-center lg:w-auto uppercase">Produk Kertas Unggulan</h2>
                 <div
                     class=" md:w-60% w-100% lg:w-auto flex md:mt-0 mt-10 flex-row gap-4 justify-center items-center"
                 >
-                <NuxtLink v-for="tag in tags" :key="tag" @click="selectTag(tag)" :class="selectedTag === tag ? 'btn-paper-rounded-top bg-primary30 text-white' : 'btn-paper-rounded-top btn-outline text-primary30 border-primary30'">{{ tag }}</NuxtLink>
+                <NuxtLink v-for="tag in tags" :key="tag" @click="selectTag(tag)" :class="[selectedTag === tag ? 'btn-paper-rounded-top bg-primary30 text-white paragraph-17-semibold' : 'btn-paper-rounded-top btn-outline text-primary30 border-primary30 paragraph-17-semibold' , tag == 'All' && 'px-[18px] md:px-[24px]']">{{ tag }}</NuxtLink>
                 </div>
             </div>
         </div>

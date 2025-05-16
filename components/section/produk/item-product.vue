@@ -10,7 +10,7 @@
     </div>
     <div v-if="dataAct" class="absolute z-9999 h-[100vh] w-[100vw] flex justify-center fixed items-center top-0 left-0">
         <div class="absolute bg-black/50 w-full h-full"></div>
-        <div class="absolute w-80% h-90% bg-white p-10 rounded-bl-[100px] rounded-tr-[100px]">
+        <div class="absolute w-80% h-auto md:h-90% bg-white p-10 rounded-bl-[100px] rounded-tr-[100px]">
              <div class="flex justify-between items-center">
                 <div class="h3-bold mb-10">{{ dataAct.title }}</div>
                  <NuxtLink @click="btnClose()">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div v-else>
-                    <div class="rounded-tr-[40px] rounded-bl-[40px] h-130 w-full overflow-hidden">
+                    <div class="rounded-tr-[40px] rounded-bl-[40px] h-120 w-full overflow-hidden">
                         <img :src="dataAct.img_product" class="h-auto w-full bg-cover"/>
                     </div>
                 </div>
