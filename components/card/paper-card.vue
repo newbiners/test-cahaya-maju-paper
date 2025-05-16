@@ -3,14 +3,14 @@
       <div class="img-box">
         <img :src="img" alt="logo" class="h-full w-full" />
       </div>
-      <div class="px-[48px] min-h-[500px] flex flex-col justify-between gap-0">
+      <div class="px-[48px] xl:min-h-[700px] 2xl:min-h-[500px] flex flex-col justify-between gap-0">
         <div>
           <p class="title-paper p1-bold paragraph-32-bold">{{ title }}</p>
           <p class=" text-justify">
             {{ desc }}
           </p>
         </div>
-          <div class="box-button-paper flex justify-end pb-[51px]">
+          <div class="box-button-paper flex justify-end xl:mt-0 mt-[20px] pb-[51px]">
           <button-paper-button
           :link="link"
             :title="'Lihat Selengkapnya ➔'"

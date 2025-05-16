@@ -1,5 +1,5 @@
 <template>
-     <div class="flex justify-center transform-translate-z-100 mt-[220px] md:mt-[554px] bg-primary h-40">
+     <div class="flex justify-center transform-translate-z-100 mt-[350px] md:mt-[554px] bg-primary h-40">
         <div class="bg-card container mx-auto flex justify-between transform-translate-y-14 overflow-hidden w-full rounded-tl-[100px] rounded-br-[100px] relative h-87 sm:h-100 lg:h-[536px] ">
           <div class="p-7 md:p-15 lg:p-23 absolute z-10 h-full flex items-center lg:items-start  justify-center flex-col">
             <h3 class="lg:w-45% mb-[20px] md:mb-[50px] uppercase text-white h3-bold md:text-start text-center">
