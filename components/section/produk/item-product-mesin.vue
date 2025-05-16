@@ -1,5 +1,5 @@
 <template>
-    <section class="section container mx-auto mt-39 mb-100 lg:mb-200">
+    <section class="container mx-auto mt-39 ">
         <div v-for="(item, index) in item" :key="item._id">
             <div v-if="index % 2 == 0">
                 <card-show-leave-mesin :desc2="item.desc2" :img_desc="item.img_desc" :point_desc="item.point_desc" :click="() => btnDataAct(item)" :img="item.img" :title="item.title" :subTitle="item.sub_title" :desc="item.desc" :type="item.type"/>
@@ -79,6 +79,8 @@
         </div>
     </section>
     </template>
+  <style scoped>
+  </style>
     <script setup>
     const activ = ref('Technical Parameters')
     const btnActive = (idx) => {
