@@ -11,7 +11,7 @@ header {
     @apply py-4;
 }
 .nav-down {
-    top: -100px;
+    top: -140px;
 }
 .nav-up {
     top: 0px;

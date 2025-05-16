@@ -95,6 +95,30 @@ const handleMenuClick = (index, item) => {
     }
 };
 
+const isScrolled = ref(false);
+let lastScrollY = ref(0);
+let delta = ref(0);
+const navbar_height = ref(40);
+
+const checkScroll = () => {
+    const currentScrollY = window.scrollY;
+    isScrolled.value = currentScrollY > navbar_height.value;
+    delta.value = currentScrollY - lastScrollY.value;
+    if (currentScrollY > navbar_height.value && delta.value > 0) {
+       openSubmenu.value = null
+    } else if (currentScrollY > navbar_height.value && delta.value < 0) {
+    //    openSubmenu.value = null
+    } else {
+        openSubmenu.value = null
+    }
+    lastScrollY.value = currentScrollY;
+};
+
+onMounted(() => {
+    window.addEventListener("scroll", checkScroll);
+    checkScroll();
+});
+
 const menu = [
     // {
     //     title: "Home",
@@ -143,7 +167,6 @@ const menu = [
 </script>
 
 <style>
-
 .mainmenu {
     .menu {
         display: flex;
