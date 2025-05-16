@@ -18,10 +18,16 @@
    max-width: calc(100% - 167px) !important;
  }
 }
-
 @media (min-width: 1920px) {
- .container {
-   max-width: 1980px !important;
-   @apply px-4;
- }
+    .container {
+        max-width: calc(100vw - 120px) !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
+// @media (min-width: 1920px) {
+//  .container {
+//    max-width: 1980px !important;
+//    @apply px-4;
+//  }
+// }
